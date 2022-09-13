@@ -21,8 +21,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100sp"
-        android:layout_height="50sp"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
         android:text="Replay"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="40sp"
@@ -30,9 +30,9 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="100sp"
-        android:layout_height="50sp"
-        android:text="Record"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:text="Practice"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="40sp"
         app:layout_constraintRight_toRightOf="parent" />
