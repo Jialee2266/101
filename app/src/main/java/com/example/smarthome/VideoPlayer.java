@@ -44,10 +44,8 @@ public class VideoPlayer extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(VideoPlayer.this, MainActivity2.class);
                 intent.putExtra("key", value);
-                startActivity(intent);;
+                startActivity(intent);
             }
         });
-
-
     }
 }
