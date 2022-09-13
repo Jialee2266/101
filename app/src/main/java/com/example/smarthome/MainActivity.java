@@ -19,8 +19,10 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
+//Starting page, dropdown menu
 public class MainActivity extends AppCompatActivity {
 
+    //Initial page 1
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,12 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, VideoPlayer.class);
                 intent.putExtra("key", value);
                 startActivity(intent);
-
             }
         });
-
-
-
-
     }
 }
